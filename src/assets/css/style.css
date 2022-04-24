@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply h-full bg-gray-800;
+}
+
+a {
+  @apply mx-1 text-blue-600 hover:text-blue-500;
+}
